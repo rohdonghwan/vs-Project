@@ -35,7 +35,7 @@ int Equal(const IntSet *s1, const IntSet *s2);
 IntSet *Union(IntSet *s1, const IntSet *s2, const IntSet *s3);
 
 
-IntSet *Intersection(IntSet *s1, const IntSet *s3, const IntSet *s3);
+IntSet *Intersection(IntSet *s1, const IntSet *s2, const IntSet *s3);
 
 
 void Print(const IntSet *s);
